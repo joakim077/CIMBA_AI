@@ -1,4 +1,4 @@
-package com.cimba.backend.controller;
+package main.java.com.cimba.backend.controller;
 
 import com.cimba.backend.model.UrlRequest;
 import com.cimba.backend.service.ScalaService;
