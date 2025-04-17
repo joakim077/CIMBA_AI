@@ -1,10 +1,12 @@
-package main.java.com.cimba.backend.controller;
+package com.cimba.backend.controller;
 
 import com.cimba.backend.model.UrlRequest;
 import com.cimba.backend.service.ScalaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Map;
 
 @RestController
 @RequestMapping("/api")
