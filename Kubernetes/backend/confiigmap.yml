@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+data:
+  SCALA_ENDPOINT: "http://scalalib:9000"
+
+
+
+  # envFrom:
+  # - configMapRef:
+  #    name: backend-config
